@@ -1,15 +1,23 @@
-Codigo da dissertação.
+Código da Dissertação
 
-IA2 - é o primeiro teste em python para um banco de dados
-O Codigo (2) é o codigo final do trabalho.
+Observações:
 
-O codigo principal fornece a regressão nao linear por minimos quadrados da função emissão de co2 das usinas termelétricas do brasil.
-Mecanismo de Funcionamento do Codigo:
-- São Coletados os dados de geração elétrica da ONS e IEMA;
-- Concatena-se os dados, separando apenas as usinas termelétricas, dos anos de 2020 a 2023;
-- Gera-se a regressão não linear por minimos quadrados da função emissão de CO2;
-- Obtem-se se os coeficientes da função emissão de co2 das usinas termelétricas;
-- Realiza-se a metricas MSE, MSRE, MAPE para estimar os erros relativos;
-- Gera-se os graficos da geração e emissão de Co2, com base no resultados dos coeficientes;
-- Cria-se uma rede neural e treina-se ela;
-- Calcula-se os erros e gera-se um gráfico 3d em função da rede neural.
+    IA2: Primeiro teste em Python para um banco de dados.
+    O Código (2): Aplicação de rede neural e geração de um gráfico 3D em função de camada/neurônio.
+    Testes: Contém todos os testes realizados para alcançar o resultado desejado, incluindo todas as falhas durante o processo.
+    Yuri (1): Base do código inicial.
+    Final: Código final onde a regressão foi usada nos dados de 2022 para validação, sem a criação de rede neural, utilizando apenas a regressão para permitir uma árvore de decisões.
+
+Os códigos fornecem a regressão não linear por mínimos quadrados da função de emissão de CO₂ das usinas termelétricas do Brasil.
+
+Mecanismo de Funcionamento do Código:
+
+    Coleta de dados de geração elétrica da ONS e IEMA.
+    Concatenação dos dados, separando apenas as usinas termelétricas, dos anos de 2020 a 2023.
+    Geração da regressão não linear por mínimos quadrados da função de emissão de CO₂.
+    Obtenção dos coeficientes da função de emissão de CO₂ das usinas termelétricas.
+    Realização das métricas MSE, MSRE, MAPE para estimar os erros relativos.
+    Geração de gráficos da geração e emissão de CO₂, com base nos resultados dos coeficientes.
+    Criação e treinamento de uma rede neural.
+    Cálculo dos erros e geração de um gráfico 3D em função da rede neural.
+    Validação da regressão com os dados de 2020 e 2021, utilizada para calcular a emissão nos dados de 2022, comparando o resultado calculado com o real e o erro relativo.
