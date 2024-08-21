@@ -10,8 +10,9 @@ Observações:
 
 Os códigos fornecem a regressão não linear por mínimos quadrados da função de emissão de CO₂ das usinas termelétricas do Brasil.
 
-Mecanismo de Funcionamento do Código: - Coleta de dados de geração elétrica da ONS e IEMA.
+Mecanismo de Funcionamento do Código: 
 -
+   - Coleta de dados de geração elétrica da ONS e IEMA.
    - Concatenação dos dados, separando apenas as usinas termelétricas, dos anos de 2020 a 2023.
    - Geração da regressão não linear por mínimos quadrados da função de emissão de CO₂.
    - Obtenção dos coeficientes da função de emissão de CO₂ das usinas termelétricas.
