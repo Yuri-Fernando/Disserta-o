@@ -9,8 +9,7 @@ Observações:
 
 Os códigos fornecem a regressão não linear por mínimos quadrados da função de emissão de CO₂ das usinas termelétricas do Brasil.
 
-Mecanismo de Funcionamento do Código:
-   - Coleta de dados de geração elétrica da ONS e IEMA.
+Mecanismo de Funcionamento do Código: - Coleta de dados de geração elétrica da ONS e IEMA.
    - Concatenação dos dados, separando apenas as usinas termelétricas, dos anos de 2020 a 2023.
    - Geração da regressão não linear por mínimos quadrados da função de emissão de CO₂.
    - Obtenção dos coeficientes da função de emissão de CO₂ das usinas termelétricas.
@@ -21,6 +20,7 @@ Mecanismo de Funcionamento do Código:
    - Validação da regressão com os dados de 2020 e 2021, utilizada para calcular a emissão nos dados de 2022, comparando o resultado calculado com o real e o erro relativo.
 
 Processos para Replicação em trabalhos futuros:
--Baixar os dados da ONS e IEMA e alterar os diretorios de acesso a esses dados;
--Realizar a instalação correta do solver Ipopt;
--Tomar o cuidado de se ter a intersecção entre os dados, é necessario que se for considerado 3 anos ou 4 anos, as pastas devem refletir essa igualdade, pois, caso contrário, não havera concatenação de dados.
+-
+- Baixar os dados da ONS e IEMA e alterar os diretorios de acesso a esses dados;
+- Realizar a instalação correta do solver Ipopt;
+- Tomar o cuidado de se ter a intersecção entre os dados, é necessario que se for considerado 3 anos ou 4 anos, as pastas devem refletir essa igualdade, pois, caso contrário, não havera concatenação de dados.
