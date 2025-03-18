@@ -1,4 +1,4 @@
-Código da Dissertação.
+Código da Dissertação UFSCar.
 
 Observações:
 -
