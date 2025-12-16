@@ -22,7 +22,7 @@ Mecanismo de Funcionamento do Código:
    - Cálculo dos erros e geração de um gráfico 3D em função da rede neural.
    - Validação da regressão com os dados de 2020 e 2021, utilizada para calcular a emissão nos dados de 2022, comparando o resultado calculado com o real e o erro relativo.
 
-Processos para Replicação em trabalhos futuros:
+Processos para Replicação em Trabalhos Futuros:
 -
 - Baixar os dados da ONS e IEMA e alterar os diretorios de acesso a esses dados;
 - Realizar a instalação correta do solver Ipopt;
